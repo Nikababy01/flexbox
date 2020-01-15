@@ -44,9 +44,9 @@ h1{
 }
 
 section{
-    text-align: center;
-    
-}
+    text-align: left;
+    overflow-wrap: break-word;
+  }
  
 
 footer{
@@ -69,13 +69,9 @@ dogs img{
     margin:50px
 }
 
-.cats{
-    display:flex;
-    flex-flow: row wrap;
-    justify-content:center;
-
-}
-cats img{
-    height: 250px;
-    margin:50px
+.img {
+    float:  left;
+    width:  100px;
+    height: 100px;
+    background-size: cover;
 }
