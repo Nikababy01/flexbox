@@ -39,3 +39,20 @@ line-height: 1.5em;
     color:white;
     background-color: = lightblue;
 }
+h1{
+    text-align: center;
+}
+
+section{
+ text-align: center;
+}
+
+footer{
+    width:100%;
+    color: lightblue;
+    background-color: lightcoral;
+    padding: 20px;
+    position:fixed;
+    left:0;
+    bottom:0
+}
